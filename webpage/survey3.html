@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>설문조사</title>
+</head>
+<body>
+    <header>
+        <h1>설문조사</h1>
+        <p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+    </header>
+    <hr>
+    <section>
+        <form>
+            <article>
+                학년 <label><input type="radio" name="grade" value="1" checked>1학년</label>
+                    <label><input type="radio" name="grade" value="2">2학년</label>
+                    <label><input type="radio" name="grade" value="3">3학년</label>
+            </article>
+            <article>
+                성별 <label><input type="radio" name="gender" value="1">남</label>
+                    <label><input type="radio" name="gender" value="2">여</label>
+            </article>
+            <article>
+                관심 분야 <input type="text" list="what">
+                        <datalist id="what">
+                            <option>게임</option>
+                            <option>영화</option>
+                            <option>운동</option>
+                        </datalist>
+            </article>
+            <article>
+                진로 <label><input type="checkbox" name="gin" value="1">영업</label>
+                    <label><input type="checkbox" name="gin" value="2">취업</label>
+                    <label><input type="checkbox" name="gin" value="3">창업</label>
+                    <label><input type="checkbox" name="gin" value="4">기획</label>
+            </article>
+            <article>
+                남기고 싶은 말 <textarea cols="20" rows="5" name="speak" wrap="hard">글을 남겨주세요.</textarea>
+            </article>
+        </form>
+    </section>
+    <footer>
+        <br>
+        <a href="webpage.html">돌아가기</a>
+        <p>Copyright 2026 by MYONGJI COLLEGE</p>
+    </footer>
+</body>
+</html>
