@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+header > hr {
+    border: 0;
+    border-top: 1px solid black; 
+}
+section > nav > ul {
+    border-top: 1px dotted;
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+    border-bottom: 1px dotted;
+}
+h2 {
+    color: blue;
+    text-shadow: 3px 3px 5px skyblue;
+}
+li {
+    font-family: "휴면편지체", sans-serif;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+footer {
+    background-color: orange;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#FOOT > table {
+    text-align: center;
+    width: 80%;
+    height: 120px;
+}

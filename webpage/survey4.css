@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+#solid > hr {
+    border: 0;
+    border-top: 1px solid black;
+}
+section {
+    background-color: pink;
+    padding-left: 10px;
+}
+footer {
+    background-color: orange;
+    border-radius: 20px;
+    padding-left: 10px;
+}
