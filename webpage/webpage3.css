@@ -1,0 +1,83 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+header {
+    height: 10%;
+    background-color: yellow;
+    overflow: hidden;
+}
+nav {
+    width: 20%;
+    height: 82%;
+    background-color: orange;
+    float: left;
+    overflow: hidden;
+}
+section {
+    width: 80%;
+    height: 82%;
+    background-color: lightblue;
+    float: left;
+    overflow: scroll;
+}
+footer {
+    height: 8%;
+    background-color: plum;
+    clear: left;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    margin: 0px;
+}
+header > hr {
+    border: 0;
+    border-top: 1px solid black; 
+}
+nav > ul {
+    border-top: 1px dotted;
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+    border-bottom: 1px dotted;
+}
+h2 {
+    color: blue;
+    text-shadow: 3px 3px 5px skyblue;
+}
+li {
+    font-family: "휴면편지체", sans-serif;
+    font-size: 1em;
+    padding-left: 1em;
+}
+#FOOT > table {
+    text-align: center;
+    width: 80%;
+    height: 120px;
+}
+.date {
+    background-color: yellow;
+}
+.every {
+    background-color: aquamarine;
+}
+.time {
+    background-color: thistle;
+}
+.internet {
+    background-color: hotpink;
+}
+.computer {
+    background-color: blueviolet;
+}
+.SW {
+    background-color: lawngreen;
+}
+.program {
+    background-color: burlywood;
+}
